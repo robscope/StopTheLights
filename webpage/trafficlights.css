@@ -1,0 +1,56 @@
+.button {
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #BEBEBE;
+  border-radius: 4px;
+  padding: 15px 42px;
+  color: black;
+  font-size: 24px;
+  border: 2px solid #222;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: #DCDCDC;
+    color: black;
+}
+
+#trafficLight {
+  background-color: #222;
+  height: 350px;
+  width: 110px;
+  border-radius: 50px;
+  padding: 25px;
+}
+
+.light {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: grey;
+}
+
+.red {
+    background-color: red;
+  background-image: radial-gradient(pink, transparent);
+}
+
+.amber {
+    background-color: orange;
+  background-image: radial-gradient(yellow, transparent);
+}
+
+.green {
+    background-color: green;
+  background-image: radial-gradient(yellow, transparent);
+}
+
+.off
+{
+  background-color:transparent;
+ }
